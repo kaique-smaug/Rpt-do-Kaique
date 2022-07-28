@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Reset de espaçamento */
+    margin: 0;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    /* reset */
+    padding-left: 15px;
+}
+
+
+#imagem-decorativa {
+    height: 450px;
+    /* altura */
+    background-image: url(../imagens/teclado.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin: auto;
+    width: 85%;
+}
+
+footer {
+    height: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+    /* Centralização total 
+    (vertical e horizontal) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para produtos */
+
+.treinamentos section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: black 0 0 15px;
+    width: 30%;
+}
+
+/* DIV que  */
+.treinamentos {
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+
+.flutuar-imagem {
+    float: left;
+    /* Afasta a imagem do texto */
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Tornando o flex da div treinamentos para o  */
+    .treinamentos {
+        flex-direction: column;
+    }
+
+    /* Fazendo com que a largura das seções voltem ao normal (largura automática */
+    .treinamentos section {
+        width: auto;
+        margin-bottom: 20px;
+    }
+}

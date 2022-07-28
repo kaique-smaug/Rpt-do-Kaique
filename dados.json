@@ -1,0 +1,22 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador Java"
+    },
+    {
+      "id": 2,
+      "titulo": "Analista de Dados"
+    },
+    {
+      "id": 3,
+      "titulo": "Professor Excel"
+    },
+    {
+      "id": 4,
+      "titulo": "Dev. Front-End"
+    }
+  ],
+  "candidatos": [
+  ]
+}
